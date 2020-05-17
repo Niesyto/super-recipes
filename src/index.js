@@ -4,7 +4,7 @@ import App from './App';
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from './theme.js'
 
-
+console.log(theme);
 ReactDOM.render(
     <MuiThemeProvider theme={theme}>
         <React.StrictMode>
